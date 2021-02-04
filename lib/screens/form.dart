@@ -36,6 +36,14 @@ class FormCustom extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+          centerTitle: true,
+          title: Text(
+            "Form",
+            style: TextStyle(
+              color: Colors.pink[900],
+              fontSize: 30,
+            ),
+          ),
           backgroundColor: Colors.white,
           elevation: 0,
           actions: [
@@ -59,6 +67,9 @@ class FormCustom extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 children: [
+                  SizedBox(
+                    height: 30,
+                  ),
                   Container(
                     height: 30,
                     child: Center(

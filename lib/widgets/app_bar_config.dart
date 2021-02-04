@@ -7,7 +7,7 @@ Widget AppBarCustom() {
     title: Text(
       "ZAPPCODE",
       style: TextStyle(
-          color: Colors.yellow[800],
+          color: Colors.pink[800],
           fontSize: 30,
           letterSpacing: 3,
           fontWeight: FontWeight.bold),

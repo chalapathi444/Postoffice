@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/screens/form.dart';
 import 'package:my_app/screens/home_screen.dart';
+import 'package:my_app/screens/image_rendering.dart';
+import 'package:my_app/screens/increment_screen.dart';
+import 'package:my_app/screens/navigation_screen_one.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,6 +21,9 @@ class MyApp extends StatelessWidget {
       home: HomeScreen(),
       routes: {
         FormCustom.routeName: (ctx) => FormCustom(),
+        IncrementScren.routeName: (ctx) => IncrementScren(),
+        NavigatorScreenOne.routeName: (ctx) => NavigatorScreenOne(),
+        ImageRendering.routeName: (ctx) => ImageRendering(),
       },
     );
   }
