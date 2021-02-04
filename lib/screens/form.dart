@@ -77,7 +77,7 @@ class FormCustom extends StatelessWidget {
                         "Enter your Details",
                         style: TextStyle(
                             color: Colors.yellow[800],
-                            fontSize: 30,
+                            fontSize: 27,
                             fontWeight: FontWeight.w300),
                       ),
                     ),

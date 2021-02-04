@@ -4,6 +4,7 @@ import 'package:my_app/screens/form.dart';
 import 'package:my_app/screens/home_screen.dart';
 import 'package:my_app/screens/image_rendering.dart';
 import 'package:my_app/screens/increment_screen.dart';
+import 'package:my_app/screens/listview.dart';
 import 'package:my_app/screens/navigation_screen_one.dart';
 
 void main() {
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         NavigatorScreenOne.routeName: (ctx) => NavigatorScreenOne(),
         ImageRendering.routeName: (ctx) => ImageRendering(),
         ErrorAlter.routeName: (ctx) => ErrorAlter(),
+        ListViewCustom.routeName: (ctx) => ListViewCustom(),
       },
     );
   }

@@ -3,6 +3,7 @@ import 'package:my_app/screens/error_alert.dart';
 import 'package:my_app/screens/form.dart';
 import 'package:my_app/screens/image_rendering.dart';
 import 'package:my_app/screens/increment_screen.dart';
+import 'package:my_app/screens/listview.dart';
 import 'package:my_app/screens/navigation_screen_one.dart';
 import 'package:my_app/widgets/app_bar_config.dart';
 import '../widgets/app_bar_config.dart';
@@ -25,12 +26,15 @@ class HomeScreen extends StatelessWidget {
       },
       () {
         Navigator.pushNamed(context, ErrorAlter.routeName);
+      },
+      () {
+        Navigator.pushNamed(context, ListViewCustom.routeName);
       }
     ];
     return Scaffold(
         appBar: AppBarCustom(),
         body: ListView.builder(
-            itemCount: 5,
+            itemCount: 6,
             itemBuilder: (ctx, idex) {
               return InkWell(
                 onTap: list[idex],
