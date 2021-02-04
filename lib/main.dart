@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/screens/error_alert.dart';
 import 'package:my_app/screens/form.dart';
 import 'package:my_app/screens/home_screen.dart';
 import 'package:my_app/screens/image_rendering.dart';
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         IncrementScren.routeName: (ctx) => IncrementScren(),
         NavigatorScreenOne.routeName: (ctx) => NavigatorScreenOne(),
         ImageRendering.routeName: (ctx) => ImageRendering(),
+        ErrorAlter.routeName: (ctx) => ErrorAlter(),
       },
     );
   }

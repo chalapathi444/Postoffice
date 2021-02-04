@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'package:my_app/screens/error_alert.dart';
 import 'package:my_app/screens/form.dart';
 import 'package:my_app/screens/image_rendering.dart';
 import 'package:my_app/screens/increment_screen.dart';
@@ -22,7 +23,9 @@ class HomeScreen extends StatelessWidget {
       () {
         Navigator.pushNamed(context, ImageRendering.routeName);
       },
-      null
+      () {
+        Navigator.pushNamed(context, ErrorAlter.routeName);
+      }
     ];
     return Scaffold(
         appBar: AppBarCustom(),
